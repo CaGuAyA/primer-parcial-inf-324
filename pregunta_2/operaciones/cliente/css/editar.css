@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+
+#editar_usuario {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 16px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#editar_usuario div {
+    display: flex;
+    align-items: center;
+}
+
+#editar_usuario label {
+    display: flex;
+    justify-self: left;
+}
+
+#editar_usuario input {
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+#editar_usuario #guardar:hover {
+    background-color: rgb(116, 168, 245);
+    color: white;
+    font-weight: bold;
+}   
