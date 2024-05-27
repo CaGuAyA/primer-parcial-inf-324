@@ -1,0 +1,214 @@
+CRITICAL - 2024-05-09 08:14:30 --> Error: Call to a member function controller() on int
+[Method: GET, Route: /]
+in FCPATH\index.php on line 67.
+
+CRITICAL - 2024-05-09 08:14:32 --> Error: Call to a member function controller() on int
+[Method: GET, Route: /]
+in FCPATH\index.php on line 67.
+
+CRITICAL - 2024-05-09 08:33:18 --> ErrorException: Undefined variable $cuentas
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 16.
+ 1 APPPATH\Views\welcome_message.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cuentas', 'C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-09 08:34:53 --> ErrorException: Undefined variable $cuentas
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 16.
+ 1 APPPATH\Views\welcome_message.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cuentas', 'C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-09 08:34:54 --> ErrorException: Undefined variable $cuentas
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 16.
+ 1 APPPATH\Views\welcome_message.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cuentas', 'C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-09 08:34:55 --> ErrorException: Undefined variable $cuentas
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 16.
+ 1 APPPATH\Views\welcome_message.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cuentas', 'C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-09 08:35:45 --> ErrorException: Undefined variable $cuentas
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 16.
+ 1 APPPATH\Views\welcome_message.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cuentas', 'C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-09 08:35:46 --> ErrorException: Undefined variable $cuentas
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 16.
+ 1 APPPATH\Views\welcome_message.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cuentas', 'C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-09 08:35:46 --> ErrorException: Undefined variable $cuentas
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 16.
+ 1 APPPATH\Views\welcome_message.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cuentas', 'C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-09 08:35:46 --> ErrorException: Undefined variable $cuentas
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 16.
+ 1 APPPATH\Views\welcome_message.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cuentas', 'C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-09 08:35:46 --> ErrorException: Undefined variable $cuentas
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 16.
+ 1 APPPATH\Views\welcome_message.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cuentas', 'C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-09 08:42:27 --> ErrorException: Undefined variable $cuentas
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 211.
+ 1 APPPATH\Views\welcome_message.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cuentas', 'C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php', 211)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-09 08:42:28 --> ErrorException: Undefined variable $cuentas
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 211.
+ 1 APPPATH\Views\welcome_message.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cuentas', 'C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php', 211)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-09 08:43:26 --> ErrorException: Undefined variable $cuentas
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 259.
+ 1 APPPATH\Views\welcome_message.php(259): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cuentas', 'C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php', 259)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-09 08:43:27 --> ErrorException: Undefined variable $cuentas
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 259.
+ 1 APPPATH\Views\welcome_message.php(259): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cuentas', 'C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php', 259)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\Danny\\htdocs\\324\\primer_parcial\\pregunta_5\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-09 08:55:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_message.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-09 08:55:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_message.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

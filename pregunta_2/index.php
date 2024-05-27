@@ -2,7 +2,7 @@
 
 <?php
 include "conexion.inc.php";
-$sql = "select * from usuario";
+$sql = "select * from Usuario";
 $resultado = mysqli_query($con, $sql);
 ?>
 
