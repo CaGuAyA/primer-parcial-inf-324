@@ -1,0 +1,31 @@
+#cabecera {
+    text-align: center;
+}
+
+#contenido {
+    padding-left: 2%;
+    padding-right: 2%;
+    display: grid;
+}
+
+#contenido table, td, tr{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    border: 1.5px solid;
+    padding: 11px;
+}
+
+#contenido table #cabecera {
+    background-color: rgba(79, 207, 253, 0.7);
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#contenido table #cuerpo_tabla {
+    background-color: rgba(211, 211, 209, 0.5);
+    font-size: 16.5px;
+}
+
+#contenido table #saldo {
+    text-align: end;
+}
